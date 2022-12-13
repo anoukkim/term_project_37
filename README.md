@@ -64,7 +64,7 @@ cv.imwrite("image.png", image)
 Using cv2.moments() to calculate the moments from contour, and seek the center coordinates using the following formula.
 
 
-<img src="./image/formula.png" width="245" height="107"/>
+<img src="./reference images/formula.png" width="245" height="107"/>
 
 
 <br/><br/>
