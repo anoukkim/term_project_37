@@ -72,5 +72,20 @@ Detect the center coordinates :
 <img src="./output_images_ex/image.png" width="800" height="445"/>
 
 
+## Limitatioins
+
+
+It has some limitations of Boundary recongnition due to the setting boundary value of the shapes.  
+
+It may occur a problem of poor-recognition in the case of light colors.
+
+
+```sh
+ret, thresh = cv.threshold(blur, 225, 255,cv.THRESH_BINARY_INV)
+```
+
+Currently, the threshold value is set to 225. It is necessary to closely adjust the value.
+
+
 
  
